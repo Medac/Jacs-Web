@@ -3,3 +3,7 @@
 body {
   min-height: 2000px;
 }
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
