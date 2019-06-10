@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: gray;
+  max-height: 150px;
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 90%;
+
+    .footer-logo {
+      height: 100%;
+      width: 300px;
+
+      img {
+        height: 140px;
+        width: 140px;
+      }
+    }
+
+    .address {
+      height: 100%;
+      width: 300px;
+    }
+
+    .copyright {
+      height: 100%;
+      width: 300px;
+    }
+  }
+}
